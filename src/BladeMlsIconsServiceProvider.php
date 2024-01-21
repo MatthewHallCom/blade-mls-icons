@@ -17,7 +17,7 @@ final class BladeMlsIconsServiceProvider extends ServiceProvider
         $this->callAfterResolving(Factory::class, function (Factory $factory, Container $container) {
             $config = $container->make('config')->get('blade-mls-icons', []);
 
-            $factory->add('mls', array_merge(['path' => __DIR__ . '/../resources/svg'], $config));
+            $factory->add('mls-icons', array_merge(['path' => __DIR__ . '/../resources/svg'], $config));
         });
     }
 

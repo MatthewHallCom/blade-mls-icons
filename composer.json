@@ -10,7 +10,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Matthew Hall"
+      "name": "Matthew Hall",
+      "homepage": "https://matthewhall.com"
     }
   ],
   "require": {
