@@ -1,0 +1,16 @@
+{
+  "name": "blade-mls-icons",
+  "version": "1.0.0",
+  "type": "module",
+  "repository": "git@github.com:MatthewHallCom/blade-mls-icons.git",
+  "author": "Matthew Hall <matthall28@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "all": "svgo -f resources/svg/ -o resources/svg/ --config=svgo.config.js",
+    "svg": "svgo --config=svgo.config.js"
+  },
+  "devDependencies": {
+    "svgo": "^3.2.0"
+  }
+}
