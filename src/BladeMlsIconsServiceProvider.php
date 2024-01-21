@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace MatthewHallCom\BladeMlsIcons;
 
-use MatthewHallCom\Icons\Factory;
+use BladeUI\Icons\Factory;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Support\ServiceProvider;
 
